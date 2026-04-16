@@ -33,6 +33,15 @@ Implemented **closed-loop automation** via actuator logic. Real-time environment
 ## Connectivity & Resilience:
 Integrated **LoRa (868 MHz)** and **ESP-NOW** protocols to ensure robust, infrastructure-independent performance in remote agricultural environments, prioritizing edge-case connectivity where standard cellular networks fail.
 
+## Hardware Integration & System Verification
+The final hardware assembly demonstrates the integration of the ESP32-C3 nodes with DHT sensors and gate actuators. This setup was used to verify the star-topology communication stability and sensor data accuracy during final testing.
+
+<p align="center">
+<img src="img/active_building_phase.png" width="600" alt="Final functional beehive monitor prototype">
+<br>
+<em>Figure 3: Functional Prototype Testing.</em>
+</p>
+
 # 3. Software & Optimization
 ## Memory Management:
 
@@ -41,7 +50,7 @@ Integrated **LoRa (868 MHz)** and **ESP-NOW** protocols to ensure robust, infras
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="img/list_view.png" width="300" alt="Mobile App Hive List View">
 
-<em>Figure 3: Flutter Mobile Interface: Real-time telemetry and multi-hive management</em>
+<em>Figure 4: Flutter Mobile Interface: Real-time telemetry and multi-hive management</em>
 </p>
 
 Implemented custom **C++ Structs** to minimize payload size (e.g., used uint8 and int16 instead of float to reduce DHT11 data from 14 bytes to 8 bytes), thus optimizing power efficiency.
