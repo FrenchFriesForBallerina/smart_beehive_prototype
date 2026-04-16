@@ -43,7 +43,6 @@ The final hardware assembly demonstrates the integration of the ESP32-C3 nodes w
 </p>
 
 # 3. Software & Optimization
-## Memory Management:
 
 <p align="center">
 <img src="img/detail_view.png" width="300" alt="Mobile App Detail View">
@@ -52,6 +51,8 @@ The final hardware assembly demonstrates the integration of the ESP32-C3 nodes w
 
 <em>Figure 4: Flutter Mobile Interface: Real-time telemetry and multi-hive management</em>
 </p>
+
+## Memory Management:
 
 Implemented custom **C++ Structs** to minimize payload size (e.g., used uint8 and int16 instead of float to reduce DHT11 data from 14 bytes to 8 bytes), thus optimizing power efficiency.
 
