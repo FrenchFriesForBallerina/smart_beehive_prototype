@@ -1,0 +1,1 @@
+# smart_beehive_prototype
