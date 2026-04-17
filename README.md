@@ -21,7 +21,7 @@ Star network using **ESP-NOW** for scalable, low-latency device-to-device commun
 <p align="center">
 <img src="img/scalability_design.png" width="600" alt="Scalable Hive Network Structure">
 <br>
-<em>Figure 2: Multi-node Star Topology and Scalability.</em>
+<em>Figure 2: Multi-node Star Topology and Scalability</em>
 </p>
 
 ## Edge Nodes:
@@ -39,7 +39,7 @@ The final hardware assembly demonstrates the integration of the ESP32-C3 nodes w
 <p align="center">
 <img src="img/active_building_phase.png" width="600" alt="Final functional beehive monitor prototype">
 <br>
-<em>Figure 3: Functional Prototype Testing.</em>
+<em>Figure 3: Functional Prototype Testing</em>
 </p>
 
 # 3. Software & Optimization
@@ -49,7 +49,7 @@ The final hardware assembly demonstrates the integration of the ESP32-C3 nodes w
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="img/list_view.png" width="300" alt="Mobile App Hive List View">
 
-<em>Figure 4: Flutter Mobile Interface: Real-time telemetry and multi-hive management</em>
+<em>Figure 4: Flutter Mobile Interface: Real-Time Telemetry and Multi-Hive Management</em>
 </p>
 
 ## Memory Management:
