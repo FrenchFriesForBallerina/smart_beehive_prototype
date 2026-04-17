@@ -5,7 +5,7 @@
 **Nominated for 'Best Thesis' 2025 by Clevon Academy & EEK Mainor.**
 
 # 1. The Challenge
-High winter mortality (up to 35% in Europe) is driven by critical hive thermodynamics. Manual monitoring is intrusive and causes heat loss. This project delivers a non-invasive, remote monitoring system that predicts starvation and health risks.
+High winter mortality (up to 35% in Europe) is driven by critical hive thermodynamics. Manual monitoring is intrusive and causes heat loss. This project delivers a non-invasive, remote monitoring system that helps prevent starvation and health risks.
 
 # 2. Hardware & Network
 
@@ -54,7 +54,7 @@ The final hardware assembly demonstrates the integration of the ESP32-C3 nodes w
 
 ## Memory Management:
 
-Implemented custom **C++ Structs** to minimize payload size (e.g., used uint8 and int16 instead of float to reduce DHT11 data from 14 bytes to 8 bytes), thus optimizing power efficiency.
+Implemented custom **C++ Structs** to minimize payload size and optimize power efficiency.
 
 ## State Management:
 Used the **BLoC pattern** in Flutter to create a reactive, scalable, and testable mobile UI.
