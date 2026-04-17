@@ -61,4 +61,4 @@ Used the **BLoC pattern** in Flutter to create a reactive, scalable, and testabl
 
 # 4. Methodology
 ## User-Centric Design 
-Project delivery was based on **persona research** and **iterative prototyping**. The solution was refined through multiple stages to ensure the prototype was functional, intuitive, and directly solved the specific pain points of Estonian beekeepers.
+Project delivery was based on **persona research** and **iterative prototyping**. The solution was refined through multiple feedback iterations of primary research with Estonian beekeepers, to ensure the prototype was functional, intuitive, and directly solved their specific pain points.
